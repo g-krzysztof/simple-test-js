@@ -7,7 +7,8 @@ Use simpletest.js instance of tinytest.js
 A list of changes:
 *   green text color pass test
 *   red text color fail test
-*   fix number of errors in console 
+*   fix number of errors in console
+*   add a collapsed view when displaying errors
 
 Joe Walnes original library.
 *   [Download original tinytest.js](https://rawgit.com/joewalnes/jstinytest/master/tinytest.js)
