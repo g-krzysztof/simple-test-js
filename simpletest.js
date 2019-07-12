@@ -55,7 +55,8 @@ var TinyTest = {
             if (window.document && document.body) {
                 document.body.style.backgroundColor = (failures == 0 ? '#99ff99' : '#ff9999');
 
-                var numberOfTest = Object.keys(tests);
+                var numberOfTest = Object.keys(tests).length;
+                console.log(numberOfTest);
             }
         }, 0);
     },
