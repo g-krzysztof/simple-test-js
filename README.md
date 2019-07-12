@@ -5,7 +5,9 @@ This is an improved version of the in-browser JavaScript library, originally wri
 
 Use simpletest.js instance of tinytest.js
 A list of changes:
-*   green text color pass test 
+*   green text color pass test
+*   red text color fail test
+*   fix number of errors in console 
 
 Joe Walnes original library.
 *   [Download original tinytest.js](https://rawgit.com/joewalnes/jstinytest/master/tinytest.js)
