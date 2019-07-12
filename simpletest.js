@@ -46,8 +46,9 @@ var TinyTest = {
                 console.log("%c" + testName, "color: green;");
             } catch (e) {
                 failures++;
-                console.log('%c' + testName + e, 'color: red;');
+                console.groupCollapsed('%c' + testName + e, 'color: red;');
                 console.error(e.stack);
+                console.groupEnd();
             }
         }
         setTimeout(function() { // Give document a chance to complete
