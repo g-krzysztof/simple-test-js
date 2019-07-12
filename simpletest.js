@@ -54,6 +54,8 @@ var TinyTest = {
         setTimeout(function() { // Give document a chance to complete
             if (window.document && document.body) {
                 document.body.style.backgroundColor = (failures == 0 ? '#99ff99' : '#ff9999');
+
+                var numberOfTest = Object.keys(tests);
             }
         }, 0);
     },
