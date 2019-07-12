@@ -57,7 +57,7 @@ var TinyTest = {
 
                 var numberOfTest = Object.keys(tests).length;
                 var successes = numberOfTest - failures;
-                var summaryString = 'Run ' + numberOfTest + ' tests ' + successes + ' successes ' + failures + ' failures';
+                var summaryString = 'Run ' + numberOfTest + ' tests: ' + successes + ' successes, ' + failures + ' failures';
             }
         }, 0);
     },
